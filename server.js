@@ -24,6 +24,8 @@ app.get('/', (req, res) => {
   const component = <App fallbackScreenClass={fallbackScreenClass} />;
   const content = ReactDomServer.renderToString(component);
 
+  console.log('content', content);
+
   res.send(`
     <!DOCTYPE html>
     <html>

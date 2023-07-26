@@ -19,7 +19,6 @@ function App({ fallbackScreenClass }) {
       date: 'd MMMM yyyy',
     },
   });
-  addLocales({ nl, en });
   setLocale('nl', false);
 
   return (
